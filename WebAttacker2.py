@@ -923,7 +923,7 @@ while True:
 
               def __10__():
                       try:
-                          target = orq1
+                          target = org1
                           info = requests.get("http://api.hackertarget.com/whois/?q=" + target).text
                           print(Fore.GREEN + info)
                       except:
